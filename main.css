@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.btnWin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+    
+}
+.btn{
+    width: 65px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: dark;
+    color: white;
+    
+}
+.btn:hover{
+    color:white;
+    border: 1px solid white;
+
+}
+.operator{
+    background-color: rgb(217, 141, 0);
+}
+.del{
+    background-color: rgb(217, 141, 0);
+}
+.showWin{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   padding: 5px 8px;
+}
+.num{
+    background-color: white;
+    color: black;
+}
+.beraber{
+    background-color: rgb(157, 8, 8);
+}
